@@ -4,8 +4,8 @@ let email = document.getElementById("email")
 const Login = async () => {
     let data = {
         Email: email.value,
-        Name: "vi nguyen",
-        Password: password.value,
+        Name: password.value,
+        Password: "hoang vi",
         Role: 1,
     }
     try {
